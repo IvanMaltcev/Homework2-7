@@ -5,58 +5,25 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        StringListImp stringList = new StringListImp(5);
-
-        stringList.add("1");
-        stringList.add("2");
-        stringList.add("4");
-        stringList.add("5");
-        stringList.add("6");
-        stringList.add("7");
-        stringList.print();
-
-        stringList.add(2, "3");
-        stringList.print();
-
-        stringList.add("5");
-        stringList.print();
-
-        stringList.set(1,"7");
-        stringList.print();
-
-        stringList.remove("3");
-        stringList.print();
-
-        stringList.remove(1);
-        stringList.print();
-
-        System.out.println(stringList.contains("5"));
-
-        System.out.println(stringList.indexOf("4"));
-
-        System.out.println(stringList.lastIndexOf("5"));
-
-        System.out.println(stringList.get(0));
-
-        StringListImp stringList2 = new StringListImp(5);
-
-        stringList2.add("1");
-        stringList2.add("4");
-        stringList2.add("5");
-
-
-        System.out.println(stringList.equals(stringList2));
-
-        System.out.println(stringList.size());
-
-        System.out.println(stringList.isEmpty());
-
-        stringList2.clear();
-        stringList2.print();
-        System.out.println(stringList2.size());
-
-        System.out.println(Arrays.toString(stringList.toArray()));
-
+//        int length = 100000;
+//        IntegerListImp integerList = new IntegerListImp(length);
+//        int amount = 1;
+//        while (amount <= length) {
+//            integerList.add((int) (Math.random() * 100));
+//            amount++;
+//        }
+//
+//        long start1 = System.currentTimeMillis();
+//        integerList.sortBubble(integerList.toArray());
+//        System.out.println(System.currentTimeMillis() - start1);
+//
+//        long start2 = System.currentTimeMillis();
+//        integerList.sortInsertion(integerList.toArray());
+//        System.out.println(System.currentTimeMillis() - start2);
+//
+//        long start3= System.currentTimeMillis();
+//        integerList.sortSelection(integerList.toArray());
+//        System.out.println(System.currentTimeMillis() - start3);
 
     }
 }
